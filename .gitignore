@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+artefacts/tokens_*.bin
+artefacts/split_*.json
+artefacts/_*.txt
+runs/*.pt
+runs/_*.txt
+runs/*.log

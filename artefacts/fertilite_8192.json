@@ -1,0 +1,6 @@
+{
+  "vocab": 8192,
+  "lignes_test": 20000,
+  "jetons_par_mot": 1.8632199330185168,
+  "jetons_par_caractere": 0.31869390367658396
+}

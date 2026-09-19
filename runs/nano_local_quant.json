@@ -1,0 +1,18 @@
+{
+  "val_float": 3.7248705327510834,
+  "val_int8": 3.727417415380478,
+  "params": 1593280,
+  "poids_fichier_mo": 2.0701828002929688,
+  "n_poids": 1593280,
+  "bits_par_caractere_int8": 2.0940917215022,
+  "bits_par_caractere": 2.0926608632871138,
+  "jetons_par_caractere": 0.3894154077307728,
+  "config": {
+    "vocab": 2048,
+    "d_model": 160,
+    "n_heads": 4,
+    "n_layers": 4,
+    "contexte": 192,
+    "d_mlp": 640
+  }
+}
