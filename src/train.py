@@ -2,7 +2,8 @@
 
 La perte d'un modèle de langue dépend du tokenizer, donc deux modèles ne se comparent qu'en
 ramenant tout au caractère : bits/caractère = perte × jetons_par_caractère / ln(2). C'est la
-mesure utilisée dans mon dépôt KabyLLM, ce qui permet de situer le nano face au modèle complet.
+mesure utilisée dans mon dépôt KabyLLM ; la comparaison n'a de sens que sur le même jeu de
+validation, ce qui n'est pas le cas entre le nano (corpus) et KabyLLM (discussion).
 
     python src/train.py --pas 20000                 # entraînement complet (GPU)
     python src/train.py --pas 300 --lot 16          # essai rapide sur processeur
